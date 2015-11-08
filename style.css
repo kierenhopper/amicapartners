@@ -1,0 +1,74 @@
+html {
+overflow-y: scroll;
+}
+
+BODY {BACKGROUND-COLOR: #eeeef2;}
+
+A:link {COLOR: #144d8c; TEXT-DECORATION: none;}
+A:visited {COLOR: #144d8c; TEXT-DECORATION: none;}
+A:hover {COLOR: #646464; TEXT-DECORATION: none;}
+A:active {COLOR: #646464; TEXT-DECORATION: none;}
+
+A:link.nav {COLOR: #134379; TEXT-DECORATION: none;}
+A:visited.nav {COLOR: #134379; TEXT-DECORATION: none;}
+A:hover.nav {COLOR: #2173cf; TEXT-DECORATION: none;}
+A:active.nav {COLOR: #2173cf; TEXT-DECORATION: none;}
+
+A:link.menu {COLOR: #ffffff; TEXT-DECORATION: none;}
+A:visited.menu {COLOR: #ffffff; TEXT-DECORATION: none;}
+A:hover.menu {COLOR: #ffffff; TEXT-DECORATION: none;}
+A:active.menu {COLOR: #ffffff; TEXT-DECORATION: none;}
+
+A:link.info {COLOR: #000000; TEXT-DECORATION: none;}
+A:visited.info {COLOR: #000000; TEXT-DECORATION: none;}
+A:hover.info {COLOR: #144d8c; TEXT-DECORATION: none;}
+A:active.info {COLOR: #144d8c; TEXT-DECORATION: none;}
+
+
+A:link.bottom {COLOR: #000000; TEXT-DECORATION: none;}
+A:visited.bottom {COLOR: #000000; TEXT-DECORATION: none;}
+A:hover.bottom {COLOR: #144d8c; TEXT-DECORATION: none;}
+A:active.bottom {COLOR: #144d8c; TEXT-DECORATION: none;}
+
+#dropmenudiv{
+position:absolute;
+border:1px solid #dc0000;
+font:normal 11px arial, sans-serif, tahoma, verdana;
+line-height:24px;
+z-index:100;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: #dc0000;
+}
+
+table.mytable {
+border:1px solid #cccccc;
+}
+table.mytable td {
+border:1px solid #cccccc;
+}
+
+input.contact {BACKGROUND-COLOR: #ebebeb; BORDER-LEFT: #9b9b9b solid 1px; BORDER-RIGHT: #c3c3c3 solid 1px; BORDER-TOP: #9b9b9b solid 1px; BORDER-BOTTOM: #c3c3c3 solid 1px; COLOR: #000000; FONT-FAMILY: tahoma, arial, sans-serif, verdana; FONT-SIZE: 11px; WIDTH: 240px; HEIGHT: 19px;}
+input.contact_submit {BACKGROUND-COLOR: #dc0000; BORDER-LEFT: #9b9b9b solid 1px; BORDER-RIGHT: #c3c3c3 solid 1px; BORDER-TOP: #9b9b9b solid 1px; BORDER-BOTTOM: #c3c3c3 solid 1px; COLOR: #ffffff; FONT-FAMILY: tahoma, arial, sans-serif, verdana; FONT-SIZE: 11px; WIDTH: 80px; HEIGHT: 19px;}
+select.contact {BACKGROUND-COLOR: #ebebeb; BORDER-LEFT: #9b9b9b solid 1px; BORDER-RIGHT: #c3c3c3 solid 1px; BORDER-TOP: #9b9b9b solid 1px; BORDER-BOTTOM: #c3c3c3 solid 1px; COLOR: #000000; FONT-FAMILY: tahoma, arial, sans-serif, verdana; FONT-SIZE: 11px; WIDTH: 240px; HEIGHT: 19px;}
+textarea.contact {BACKGROUND-COLOR: #ebebeb; BORDER-LEFT: #9b9b9b solid 1px; BORDER-RIGHT: #c3c3c3 solid 1px; BORDER-TOP: #9b9b9b solid 1px; BORDER-BOTTOM: #c3c3c3 solid 1px; COLOR: #000000; FONT-FAMILY: tahoma, arial, sans-serif, verdana; FONT-SIZE: 11px; WIDTH: 240px; HEIGHT: 80px;}
+
+.normal {COLOR: #646464; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 11px; FONT-WEIGHT: normal; LINE-HEIGHT: 16px; TEXT-ALIGN: justify; TEXT-DECORATION: none;}
+.normal2 {COLOR: #646464; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 11px; FONT-WEIGHT: normal; LINE-HEIGHT: 16px; TEXT-ALIGN: left; TEXT-DECORATION: none;}
+.topic_normal {COLOR: #144d8c; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 17px; FONT-WEIGHT: bold; LINE-HEIGHT: 18px; TEXT-ALIGN: left; TEXT-DECORATION: none;}
+
+.side_normal {COLOR: #144d8c; FONT-FAMILY: georgia, serif, times new roman, verdana, tahoma, arial, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: normal; LINE-HEIGHT: 24px; TEXT-ALIGN: left; TEXT-DECORATION: none;}
+
+.nav_normal {COLOR: #134379; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; LINE-HEIGHT: 16px; TEXT-ALIGN: center; TEXT-DECORATION: none;}
+
+.info_normal {COLOR: #ffffff; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 11px; FONT-WEIGHT: normal; LINE-HEIGHT: 12px; TEXT-ALIGN: left; TEXT-DECORATION: none;}
+
+.bottom_left_normal {COLOR: #000000; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 10px; FONT-WEIGHT: normal; LINE-HEIGHT: 12px; TEXT-ALIGN: left; TEXT-DECORATION: none;}
+.bottom_right_normal {COLOR: #000000; FONT-FAMILY: arial, sans-serif, tahoma, verdana; FONT-SIZE: 10px; FONT-WEIGHT: normal; LINE-HEIGHT: 12px; TEXT-ALIGN: right; TEXT-DECORATION: none;}
